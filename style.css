@@ -1,0 +1,51 @@
+.body{
+
+    flex: 1;
+}
+
+.header{
+
+    display: flex;
+    flex-direction: row;
+    flex-grow: inherit;
+    flex: 1;
+align-items: center;
+color: rgb(255, 255, 255);
+padding-left: 50px;
+justify-content: space-between;
+
+font-size: 30px;
+
+}
+
+.about{
+
+padding-right: 100px;
+
+}
+
+
+
+    a{
+
+text-decoration: none;
+color: white;
+flex-direction: row;
+
+    }
+
+.header{
+
+    color: white;
+    font-size: 30px;
+  }
+
+  .abouttext{
+
+    flex: 1;
+text-align: center;
+padding: 100px;
+
+
+
+  }

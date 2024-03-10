@@ -4,27 +4,33 @@ background-color: black;
 
 }
 .header{
-flex-direction: row;
-color: white;
-display: flex;
-flex-grow: inherit;
-flex: 1;
-font-size: 24px;
-justify-content: space-between;
-align-items: center;
-padding: 10px;
-padding-left: 50px;
-padding-right: 90px;
+
+    flex-direction: row;
+    color: white;
+    display: flex;
+    flex-grow: inherit;
+    flex: 1;
+    font-size: 24px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 90px;
+
 
 }
 
+li{
+list-style-type: none;
+font-size: 32px;
+text-align: left;
 
+}
 
 .parallaximage {
 
-    
+    flex: auto;
 background-image: url("/Images/Highlands.jpg") ;
-
 min-height: 350px;
 background-attachment: fixed;
 background-position: center top 130px;
@@ -36,17 +42,14 @@ display: flex;
 
   }
 
-  .artist{
+
+  .br{
+
+    line-height:50px;}
   
-display: block;
-color: white;
-position: relative;
-bottom:70px;
-padding-left: 50px;
-font-size: 34px;
 
 
-  }
+  
 
 
   

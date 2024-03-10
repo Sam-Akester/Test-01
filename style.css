@@ -7,7 +7,7 @@ background-color: black;
 flex-direction: row;
 color: white;
 display: flex;
-flex-direction: row;
+
 flex-grow: inherit;
 flex: 1;
 font-size: 24px;
@@ -17,6 +17,15 @@ padding: 10px;
 padding-left: 50px;
 padding-right: 90px;
 padding-bottom: 100px;
+
+}
+.watch_header{
+    flex-direction: row;
+display: flex;
+ 
+font-size: 24px;
+padding:20px;
+
 
 }
   a{
@@ -43,15 +52,28 @@ justify-content: center;
 flex-wrap: wrap;
 flex-direction: row;
 
+    }
 
-    }
+.watchimage{
+    width: 1000px;
+    height: 800;
+    object-fit: cover;
+
     
-    img {
-        width: 400px;
-        height: 400px;
-        object-fit: cover;
-       
-    }
+}
+
+    
+
+.homeimage{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+
+}
+
+    
+
+    
      .caption{
 
 display: flex;
@@ -62,12 +84,28 @@ display: flex;
      }
          
 
-     
+     .footer{
+
+display: flex;
+flex-direction: row;
+padding: 10px;
+padding-top: 50px;
+justify-content: center;
+
+     }
+
+     .contacts{
+color: white;
+     }
 
 
+.watch_container{
 
-   
-    
+
+flex-direction: row;
+justify-content: left;
+padding: 20px;
+}
 
 
  

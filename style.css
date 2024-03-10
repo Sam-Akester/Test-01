@@ -7,7 +7,6 @@ background-color: black;
 flex-direction: row;
 color: white;
 display: flex;
-
 flex-grow: inherit;
 flex: 1;
 font-size: 24px;
@@ -16,13 +15,45 @@ align-items: center;
 padding: 10px;
 padding-left: 50px;
 padding-right: 90px;
-padding-bottom: 100px;
 
 }
-.watch_header{
-    flex-direction: row;
+
+
+
+.parallaximage {
+
+    
+background-image: url("/Images/Highlands.jpg") ;
+
+min-height: 350px;
+background-attachment: fixed;
+background-position: center top 130px;
+background-repeat: no-repeat;
+background-size: cover;
 display: flex;
- 
+
+  
+
+  }
+
+  .artist{
+  
+display: block;
+color: white;
+position: relative;
+bottom:70px;
+padding-left: 50px;
+font-size: 34px;
+
+
+  }
+
+
+  
+.watch_header{
+flex-direction: row;
+display: flex;
+
 font-size: 24px;
 padding:20px;
 
@@ -42,6 +73,7 @@ flex-wrap: wrap;
 flex-direction: row;
 gap: 20px;
 justify-content: center;
+padding-top: 30px;
  
   }
 
